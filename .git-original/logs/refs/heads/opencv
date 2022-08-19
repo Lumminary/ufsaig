@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 b60584fb6442c92750f2b1cb4cfbb714807f576a Sergii Kutnii <mnkutster@gmail.com> 1621012107 +0300	branch: Created from HEAD
+b60584fb6442c92750f2b1cb4cfbb714807f576a 63a355dcaddfbacc9cc38707d46165dc52515a51 Sergii Kutnii <mnkutster@gmail.com> 1621033645 +0300	commit: OpenCV-based implementation
+63a355dcaddfbacc9cc38707d46165dc52515a51 b0a494d96f8e36fadec1e1b653b73fa30a480245 Sergii Kutnii <mnkutster@gmail.com> 1621895505 +0300	commit: Basic OpenCV rendering implemented

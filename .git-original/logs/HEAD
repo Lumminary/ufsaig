@@ -1,0 +1,53 @@
+d4022daf49cbd53c794e53ece35784bfd9509217 a3d46fba2386a375fa9faa740595d3c4a24cb95d Sergii Kutnii <mnkutster@gmail.com> 1613431345 +0200	commit: Sprite model added
+a3d46fba2386a375fa9faa740595d3c4a24cb95d 9920cf2d809f529f34c86c669ceb787cda541f05 Sergii Kutnii <mnkutster@gmail.com> 1613593088 +0200	commit: Custom socket
+9920cf2d809f529f34c86c669ceb787cda541f05 91b6b2551ff4d77b2cfdb14964617e0e186e6f82 Sergii Kutnii <mnkutster@gmail.com> 1613601490 +0200	commit: Run HOWTO updated
+91b6b2551ff4d77b2cfdb14964617e0e186e6f82 4e9be319b36f3f96de5f648e6fbd0b5a67b5b418 Sergii Kutnii <mnkutster@gmail.com> 1613611255 +0200	commit: Image response extracted
+4e9be319b36f3f96de5f648e6fbd0b5a67b5b418 c30c0ca342523f0bf84966d647ddb6c0603a3c9d Sergii Kutnii <mnkutster@gmail.com> 1613780279 +0200	commit: work in progress
+c30c0ca342523f0bf84966d647ddb6c0603a3c9d 832c2387173f640f793b94fa5fe8bb4f9ad3512d Sergii Kutnii <mnkutster@gmail.com> 1614632489 +0200	commit: Sprite endpoint works
+832c2387173f640f793b94fa5fe8bb4f9ad3512d 863111ba4b3d378a342a5709041cfe58953a2bc5 Sergii Kutnii <mnkutster@gmail.com> 1614823368 +0200	commit: Sprite sheet access endpoint and sprite building algorithm debugged
+863111ba4b3d378a342a5709041cfe58953a2bc5 2f8b9004b21ec1f149293f05590be45f1c16152e Sergii Kutnii <mnkutster@gmail.com> 1614901035 +0200	commit: Sprite rendering on the thread pool
+2f8b9004b21ec1f149293f05590be45f1c16152e 4829a5e7e4fe3e52caa6e0e33db13b6e312349a8 Sergii Kutnii <mnkutster@gmail.com> 1614905754 +0200	commit: sprite_sheet_images fixed
+4829a5e7e4fe3e52caa6e0e33db13b6e312349a8 80e947c5e75e9cf4a139b99a7b6c7e2b459d3e3a Sergii Kutnii <mnkutster@gmail.com> 1614977590 +0200	commit: Sprite CSS endpoint implemented
+80e947c5e75e9cf4a139b99a7b6c7e2b459d3e3a 01f07a54ac38e3d758025a6febfc1b8c3c92be37 Sergii Kutnii <mnkutster@gmail.com> 1615425376 +0200	commit: Stylesheet content type fixed
+01f07a54ac38e3d758025a6febfc1b8c3c92be37 09134c2d5775d8d13c88106c675136f4f4dbcdd4 Sergii Kutnii <mnkutster@gmail.com> 1615431531 +0200	commit: Offsets calculation fixed
+09134c2d5775d8d13c88106c675136f4f4dbcdd4 d872b6c9aadf5f104a3970ca7a4c1475856596ca Sergii Kutnii <mnkutster@gmail.com> 1615513214 +0200	commit: CSS amendments
+d872b6c9aadf5f104a3970ca7a4c1475856596ca 922c95939f10d003783fd21c5eb4d053ab7b80ff Sergii Kutnii <mnkutster@gmail.com> 1615515418 +0200	commit: WEBP support
+922c95939f10d003783fd21c5eb4d053ab7b80ff 922c95939f10d003783fd21c5eb4d053ab7b80ff Sergii Kutnii <mnkutster@gmail.com> 1615584677 +0200	checkout: moving from develop to time_measurement
+922c95939f10d003783fd21c5eb4d053ab7b80ff 7f3d3ed9b574b8bf7be2b30aaff25825918639f6 Sergii Kutnii <mnkutster@gmail.com> 1615584695 +0200	commit: Time measurements added
+7f3d3ed9b574b8bf7be2b30aaff25825918639f6 922c95939f10d003783fd21c5eb4d053ab7b80ff Sergii Kutnii <mnkutster@gmail.com> 1615584717 +0200	checkout: moving from time_measurement to develop
+922c95939f10d003783fd21c5eb4d053ab7b80ff 7f3d3ed9b574b8bf7be2b30aaff25825918639f6 Sergii Kutnii <mnkutster@gmail.com> 1615584732 +0200	merge time_measurement: Fast-forward
+7f3d3ed9b574b8bf7be2b30aaff25825918639f6 8e736400f2456bdf16d68640cef35c45b5b432fd Sergii Kutnii <mnkutster@gmail.com> 1615589183 +0200	commit: Removed logging
+8e736400f2456bdf16d68640cef35c45b5b432fd f49193a3ed681a58bf21c2bd4ffce77cad584d56 Sergii Kutnii <mnkutster@gmail.com> 1615592778 +0200	commit: Fixing type conversions
+f49193a3ed681a58bf21c2bd4ffce77cad584d56 ff30db07c51121ff2ab3d711dcdbbb66132c1154 Sergii Kutnii <mnkutster@gmail.com> 1615834172 +0200	pull origin develop: Fast-forward
+ff30db07c51121ff2ab3d711dcdbbb66132c1154 521180e824c20d3b24a2211a12b091267126cf2c Sergii Kutnii <mnkutster@gmail.com> 1616013165 +0200	pull origin develop: Fast-forward
+521180e824c20d3b24a2211a12b091267126cf2c e8f51b82d0c9c237b6b737ba0c1c22b21d116f8e Sergii Kutnii <mnkutster@gmail.com> 1616014745 +0200	commit: Updated build and run instructions for CentOS
+e8f51b82d0c9c237b6b737ba0c1c22b21d116f8e 16ddbfe02070912a4f0afdc8a04712e0f00f4987 Sergii Kutnii <mnkutster@gmail.com> 1617909113 +0300	commit: Metadata format changed
+16ddbfe02070912a4f0afdc8a04712e0f00f4987 cdff1b39dd494904a9512f9e389da07e50179deb Sergii Kutnii <mnkutster@gmail.com> 1617987714 +0300	commit: sprite key format changed
+cdff1b39dd494904a9512f9e389da07e50179deb c6081e7ee69dca03acd87e27d0c8c860fcbfa0c4 Sergii Kutnii <mnkutster@gmail.com> 1617993851 +0300	commit: Redirect to CSS added
+c6081e7ee69dca03acd87e27d0c8c860fcbfa0c4 836981ec0763998d48140f1f8dab8f1410ec9199 Sergii Kutnii <mnkutster@gmail.com> 1618359136 +0300	commit: Sprite building algorithm fixed
+836981ec0763998d48140f1f8dab8f1410ec9199 be57dbe27457567180a0c39b2ab8f4f71a2f3c51 Sergii Kutnii <mnkutster@gmail.com> 1618512413 +0300	commit: force_create argument implemented
+be57dbe27457567180a0c39b2ab8f4f71a2f3c51 c624b584e0dd48a4ef5f697b400452c15161bcb3 Sergii Kutnii <mnkutster@gmail.com> 1618566711 +0300	commit: Removed redundant data
+c624b584e0dd48a4ef5f697b400452c15161bcb3 b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a Sergii Kutnii <mnkutster@gmail.com> 1618845297 +0300	commit: Scaling smaller resolutions
+b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a Sergii Kutnii <mnkutster@gmail.com> 1619039294 +0300	checkout: moving from develop to magick-omp
+b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a df0a75f05969cd286c7b46953e5eaf0baf342ddb Sergii Kutnii <mnkutster@gmail.com> 1619039707 +0300	commit: Added openmp support for ImageMagick
+df0a75f05969cd286c7b46953e5eaf0baf342ddb b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a Sergii Kutnii <mnkutster@gmail.com> 1619046416 +0300	checkout: moving from magick-omp to develop
+b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a Sergii Kutnii <mnkutster@gmail.com> 1619046906 +0300	checkout: moving from develop to prebuild-imagemagick
+b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a 35a056c336a7051685d84359744ed76da9806d40 Sergii Kutnii <mnkutster@gmail.com> 1619125662 +0300	commit: CMakeLists updated
+35a056c336a7051685d84359744ed76da9806d40 b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a Sergii Kutnii <mnkutster@gmail.com> 1619126995 +0300	checkout: moving from prebuild-imagemagick to develop
+b83fdede8e684d5f6fd6c009dbd888aeb6f41b6a eb6fdcb37cfa5683c576587237287267a33457ec Sergii Kutnii <mnkutster@gmail.com> 1619151329 +0300	commit: Base64 encoding algorithm implemented
+eb6fdcb37cfa5683c576587237287267a33457ec e353b4544821f75dea3f3812121d553709b5a12c Sergii Kutnii <mnkutster@gmail.com> 1619169106 +0300	commit: Base64 images endpoint implemented
+e353b4544821f75dea3f3812121d553709b5a12c 30e163b0ee24153582403c42f064dd7b8eff3831 Sergii Kutnii <mnkutster@gmail.com> 1619170096 +0300	commit: Committing CMakeLists
+30e163b0ee24153582403c42f064dd7b8eff3831 4f368137565921cf77a7e7d87a2416ea96bbb7b3 Sergii Kutnii <mnkutster@gmail.com> 1619170176 +0300	commit: Added an include
+4f368137565921cf77a7e7d87a2416ea96bbb7b3 70626b28bdd7b5580e61fff7718bbdb353875a4a Sergii Kutnii <mnkutster@gmail.com> 1619814273 +0300	commit: Bulk operations
+70626b28bdd7b5580e61fff7718bbdb353875a4a bb654265b04bad280b3f90a631a3ea948954d893 Sergii Kutnii <mnkutster@gmail.com> 1619814577 +0300	commit: Minor
+bb654265b04bad280b3f90a631a3ea948954d893 b60584fb6442c92750f2b1cb4cfbb714807f576a Sergii Kutnii <mnkutster@gmail.com> 1620759240 +0300	commit: Batched I/O in sprite creation
+b60584fb6442c92750f2b1cb4cfbb714807f576a b60584fb6442c92750f2b1cb4cfbb714807f576a Sergii Kutnii <mnkutster@gmail.com> 1620770286 +0300	checkout: moving from develop to boost-gil
+b60584fb6442c92750f2b1cb4cfbb714807f576a 5279dbc50572033ed11a4be044cbef5ea8b90d6d Sergii Kutnii <mnkutster@gmail.com> 1621012088 +0300	commit: Work in progress
+5279dbc50572033ed11a4be044cbef5ea8b90d6d b60584fb6442c92750f2b1cb4cfbb714807f576a Sergii Kutnii <mnkutster@gmail.com> 1621012097 +0300	checkout: moving from boost-gil to develop
+b60584fb6442c92750f2b1cb4cfbb714807f576a b60584fb6442c92750f2b1cb4cfbb714807f576a Sergii Kutnii <mnkutster@gmail.com> 1621012107 +0300	checkout: moving from develop to opencv
+b60584fb6442c92750f2b1cb4cfbb714807f576a 63a355dcaddfbacc9cc38707d46165dc52515a51 Sergii Kutnii <mnkutster@gmail.com> 1621033645 +0300	commit: OpenCV-based implementation
+63a355dcaddfbacc9cc38707d46165dc52515a51 b0a494d96f8e36fadec1e1b653b73fa30a480245 Sergii Kutnii <mnkutster@gmail.com> 1621895505 +0300	commit: Basic OpenCV rendering implemented
+b0a494d96f8e36fadec1e1b653b73fa30a480245 b60584fb6442c92750f2b1cb4cfbb714807f576a Sergii Kutnii <mnkutster@gmail.com> 1621968952 +0300	checkout: moving from opencv to develop
+b60584fb6442c92750f2b1cb4cfbb714807f576a b0a494d96f8e36fadec1e1b653b73fa30a480245 Sergii Kutnii <mnkutster@gmail.com> 1621968968 +0300	merge opencv: Fast-forward
+b0a494d96f8e36fadec1e1b653b73fa30a480245 ddc2d5cafdc9102dcd2e52be06f4c425f747af6e Sergii Kutnii <mnkutster@gmail.com> 1622053412 +0300	commit: Background color parser for OpenCV
+ddc2d5cafdc9102dcd2e52be06f4c425f747af6e 5509ce09474083ee8ecd977242f39917a1111e6d Sergii Kutnii <mnkutster@gmail.com> 1622060647 +0300	commit: Build fixed for Linux

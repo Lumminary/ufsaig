@@ -1,0 +1,64 @@
+This is a step by step configuration, build and run guide for CentOS 7. 
+It assumes that the source code of the project is already there.
+
+1. Install development tools
+    sudo yum  group install "Development Tools"
+    
+2. Install SCL repository 
+    sudo yum install centos-release-scl-rh
+    
+3. Install EPEL repository
+    sudo yum install epel-release
+
+4. Install GCC 9
+    sudo yum install devtoolset-9-toolchain
+    
+5. Make your shell use developer toolset 9
+    scl enable devtoolset-9 bash
+    
+6. Install CMake. You need at least 3.19.1 - 
+    on CentOS this is a newer version 
+    than provided by system repos so you need to do the following:
+    6.1 Open https://cmake.org/download/ in your browser
+    6.2 Copy the most recent Linux/Unix source tarball URL
+    6.3 In the SSH terminal type 'wget <URL from the previous step>'
+    6.4 Extract the downloaded archive: 'tar -xvf <archive-name>'
+    6.5 Build and install CMake from souce:
+        cd <path to unarchived cmake source>
+        ./bootstrap
+        make
+        sudo make install
+        
+7. Install libwebp. The default libwebp-devel for CentOS has problems, 
+    so it is necessary to build from source.
+    7.1 git clone https://github.com/webmproject/libwebp
+    7.2 cd libwebp
+    7.3 ./autogen.sh
+    7.4 ./configure
+    7.5 make
+    7.6 sudo make install
+                    
+8. Install dependency packages
+    sudo yum install libev-devel java-1.8.0-openjdk jsoncpp-devel libuuid-devel libpng-devel libjpeg-devel openssl-devel
+    
+9. Fix PKG_COFIG_PATH 
+    to make build system recognize the custom-built webp library 
+    installed from source:
+        export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+    
+10. Build the project
+    cd <project_root>
+    ./build.sh
+    
+11. Run image server
+    11.1 Create a configuration file. 
+        You can use <project_root>/config_example.json as a template
+    11.3 If you need to bind to port 80, allow the binary to do so:
+        sudo setcap CAP_NET_BIND_SERVICE=+eip <project_root>/build/image_server
+    11.2 Assuming you are in the project root folder, do
+        build/image_server <path to the configuration file>
+    
+
+        
+    
+

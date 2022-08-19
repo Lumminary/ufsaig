@@ -1,0 +1,30 @@
+{ 
+  "listen" : "0.0.0.0",
+  "port"  : 80,
+  "logPath" : "./",
+  "logLevel" : 0,
+  "numThreads" : 256,
+  "daemonize" : false,
+  "enableUploads" : true,
+  "maxRequestBytes" : 1073741824, //1GB
+  "staticPath" : "static",
+  "transformerThreads" : 2,
+  
+  "metaDataSource" : {
+    "isCluster" : false,
+    "connectionString" : "localhost",
+    "username" : "test",
+    "password" : "testtest",
+    "bucket" : "images-meta",
+    "timeoutMicrosec" : 60000000
+  }, 
+  
+  "binaryDataSource" : {
+    "isCluster" : false,
+    "connectionString" : "localhost",
+    "username" : "test",
+    "password" : "testtest",
+    "bucket" : "images", 
+    "timeoutMicrosec" : 60000000
+  }   
+}

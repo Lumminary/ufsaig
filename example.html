@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <script type="text/javascript">
+        
+        function processImages(images) {
+        	for (key in images) {
+        		var img = document.createElement("img");
+        		img.src= images[key];
+        		document.body.appendChild(img);
+        	}
+        }
+        
+        function getImages() {
+        	var request = new XMLHttpRequest();
+        	request.onreadystatechange = function() {
+        	    if (this.readyState == 4 
+        	    		&& this.status == 200) {
+        	    	
+        	    	var images = JSON.parse(this.responseText);
+        	    	processImages(images);
+        	    }
+        	 };
+        	 
+        	 request.open("POST", "http://localhost/base64_images", true);
+        	 request.send(JSON.stringify([
+        	        {
+        	            "key": "img_df47bbc482ef78001bae849c65949364",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_c1a5392d19b0c9078d78778638f33ccf",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_04715fd7b8876fe88cb0280f6d3b9e2f",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_f6eb3b117f084011ba31acecc3a90319",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_072d6597290babbc03cc221c9caf49cb",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_d4f3f721a6cf6b2980bb3d38ee5e36c8",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	         {
+        	            "key": "img_3264f2284114f2b04796ff194b858947",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_3c5ebb5b68fe833e5dfa716458af7ae4",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_1dfa6ada4bd5a59ab4cce4fd5b125706",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_845edaa69349a883226ed270cb019e7d",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_8e5028456e36d432d080f873fef1ebe9",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        },
+        	        {
+        	            "key": "img_390a38762005046df00b1971fa8206d1",
+        	            "width": 120,
+        	            "height": 120,
+        	            "save": true
+        	        }
+        	    ]));
+        }
+        
+        </script>
+    </head>
+    <body onload="getImages()">
+    </body>
+</html>

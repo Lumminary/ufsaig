@@ -1,0 +1,14 @@
+5279dbc50572033ed11a4be044cbef5ea8b90d6d	refs/heads/boost-gil
+b60584fb6442c92750f2b1cb4cfbb714807f576a	refs/heads/develop
+df0a75f05969cd286c7b46953e5eaf0baf342ddb	refs/heads/magick-omp
+bff4a8bbae59d570559ddaaecab11524604ca7bd	refs/heads/master
+63a355dcaddfbacc9cc38707d46165dc52515a51	refs/heads/opencv
+35a056c336a7051685d84359744ed76da9806d40	refs/heads/prebuild-imagemagick
+7f3d3ed9b574b8bf7be2b30aaff25825918639f6	refs/heads/time_measurement
+b60584fb6442c92750f2b1cb4cfbb714807f576a	refs/remotes/origin/develop
+df0a75f05969cd286c7b46953e5eaf0baf342ddb	refs/remotes/origin/magick-omp
+bff4a8bbae59d570559ddaaecab11524604ca7bd	refs/remotes/origin/master
+35a056c336a7051685d84359744ed76da9806d40	refs/remotes/origin/prebuild-imagemagick
+7f3d3ed9b574b8bf7be2b30aaff25825918639f6	refs/remotes/origin/time_measurement
+05b863d778d369518d7613848dc7733fb76a7fb6	refs/tags/0.0.1/staging
+bff4a8bbae59d570559ddaaecab11524604ca7bd	refs/tags/0.0.1/staging^{}
